@@ -7,3 +7,5 @@ $$ \begin{pmatrix} a \\\\ b \\\\ c \end{pmatrix} \times \begin{pmatrix}d \\\\ e 
    \begin{pmatrix} bf - ce \\\\ cd - af \\\\ ae - bd \end{pmatrix} $$
    
 The goal is to shuffle the letters to form words.
+
+The list in words_alpha.txt came from https://github.com/dwyl/english-words.
