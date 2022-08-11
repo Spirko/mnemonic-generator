@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="mnemonic.css">
+  <script src="mnemonic.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>Mnemonic Generator</h1>
+</header>
+<article>
+  <p>File to load: <input id="words" type="text" value="words_alpha.txt"> <button id="load-words">Load Words</button></p>
+  <p>Template words: <textarea rows="10" cols="10">
+abc
+def
+bfce
+cdaf
+aebd</textarea><button id="load-template" disabled>Load Template</button></p>
+  <p><button id="generate" disabled>Generate Words</button></p>
+  <p>Status: <input id="status" size="60" readonly value=""></input></p>
+</article>
+<footer>
+  <div class='name'>Copyright 2022,<br>Jeff Spirko</div>
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+    </a> 
+    <span>This work is licensed under the<br />
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      Creative Commons Attribution-ShareAlike 4.0 International License
+    </a>.</span>
+</footer>
+</body>
+</html>
